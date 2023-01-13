@@ -1,0 +1,3 @@
+In order for different apps to communicate, apps use APIs or application programming interfaces. APIs allow users get, create, update, and delete resources.
+
+In a music app, a POST request is used to add new music or albums. When an artist wants to change the name of a specific song, he would then use a PUT request.
