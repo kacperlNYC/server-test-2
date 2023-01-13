@@ -1,4 +1,5 @@
 // Kacper Letowski Web Dev Period 7 8
+// Reflection in other file
 const express = require('express');
 const app = express()
 
@@ -71,12 +72,6 @@ app.delete('/api/courses/:id', (req,res)=>{
         res.status(200).send(course)
 
     }
-    //look up the course by id
-        //return 404 if does not exist
-        //delete the course by index HINT: use the indexOf() and splice() methods
-        // return the response to the client the course that was deleted
-
-
 });
 
 
